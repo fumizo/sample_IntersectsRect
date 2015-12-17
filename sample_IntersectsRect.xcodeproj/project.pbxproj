@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5EB4671C22AB4A000212A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB4661C22AB4A000212A2 /* main.m */; };
+		4F5EB46A1C22AB4A000212A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB4691C22AB4A000212A2 /* AppDelegate.m */; };
+		4F5EB46D1C22AB4B000212A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB46C1C22AB4B000212A2 /* ViewController.m */; };
+		4F5EB4701C22AB4B000212A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EB46E1C22AB4B000212A2 /* Main.storyboard */; };
+		4F5EB4721C22AB4B000212A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EB4711C22AB4B000212A2 /* Assets.xcassets */; };
+		4F5EB4751C22AB4B000212A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5EB4731C22AB4B000212A2 /* LaunchScreen.storyboard */; };
+		4F5EB4801C22AB4B000212A2 /* sample_IntersectsRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB47F1C22AB4B000212A2 /* sample_IntersectsRectTests.m */; };
+		4F5EB48B1C22AB4B000212A2 /* sample_IntersectsRectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB48A1C22AB4B000212A2 /* sample_IntersectsRectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F5EB47C1C22AB4B000212A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5EB45A1C22AB4A000212A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F5EB4611C22AB4A000212A2;
+			remoteInfo = sample_IntersectsRect;
+		};
+		4F5EB4871C22AB4B000212A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F5EB45A1C22AB4A000212A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F5EB4611C22AB4A000212A2;
+			remoteInfo = sample_IntersectsRect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F5EB4621C22AB4A000212A2 /* sample_IntersectsRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample_IntersectsRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5EB4661C22AB4A000212A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5EB4681C22AB4A000212A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F5EB4691C22AB4A000212A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F5EB46B1C22AB4B000212A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F5EB46C1C22AB4B000212A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F5EB46F1C22AB4B000212A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5EB4711C22AB4B000212A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5EB4741C22AB4B000212A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F5EB4761C22AB4B000212A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5EB47B1C22AB4B000212A2 /* sample_IntersectsRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample_IntersectsRectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5EB47F1C22AB4B000212A2 /* sample_IntersectsRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_IntersectsRectTests.m; sourceTree = "<group>"; };
+		4F5EB4811C22AB4B000212A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5EB4861C22AB4B000212A2 /* sample_IntersectsRectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample_IntersectsRectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5EB48A1C22AB4B000212A2 /* sample_IntersectsRectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_IntersectsRectUITests.m; sourceTree = "<group>"; };
+		4F5EB48C1C22AB4B000212A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5EB45F1C22AB4A000212A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5EB4781C22AB4B000212A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5EB4831C22AB4B000212A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5EB4591C22AB4A000212A2 = {
+			isa = PBXGroup;
+			children = (
+				4F5EB4641C22AB4A000212A2 /* sample_IntersectsRect */,
+				4F5EB47E1C22AB4B000212A2 /* sample_IntersectsRectTests */,
+				4F5EB4891C22AB4B000212A2 /* sample_IntersectsRectUITests */,
+				4F5EB4631C22AB4A000212A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5EB4631C22AB4A000212A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB4621C22AB4A000212A2 /* sample_IntersectsRect.app */,
+				4F5EB47B1C22AB4B000212A2 /* sample_IntersectsRectTests.xctest */,
+				4F5EB4861C22AB4B000212A2 /* sample_IntersectsRectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5EB4641C22AB4A000212A2 /* sample_IntersectsRect */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB4681C22AB4A000212A2 /* AppDelegate.h */,
+				4F5EB4691C22AB4A000212A2 /* AppDelegate.m */,
+				4F5EB46B1C22AB4B000212A2 /* ViewController.h */,
+				4F5EB46C1C22AB4B000212A2 /* ViewController.m */,
+				4F5EB46E1C22AB4B000212A2 /* Main.storyboard */,
+				4F5EB4711C22AB4B000212A2 /* Assets.xcassets */,
+				4F5EB4731C22AB4B000212A2 /* LaunchScreen.storyboard */,
+				4F5EB4761C22AB4B000212A2 /* Info.plist */,
+				4F5EB4651C22AB4A000212A2 /* Supporting Files */,
+			);
+			path = sample_IntersectsRect;
+			sourceTree = "<group>";
+		};
+		4F5EB4651C22AB4A000212A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB4661C22AB4A000212A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F5EB47E1C22AB4B000212A2 /* sample_IntersectsRectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB47F1C22AB4B000212A2 /* sample_IntersectsRectTests.m */,
+				4F5EB4811C22AB4B000212A2 /* Info.plist */,
+			);
+			path = sample_IntersectsRectTests;
+			sourceTree = "<group>";
+		};
+		4F5EB4891C22AB4B000212A2 /* sample_IntersectsRectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F5EB48A1C22AB4B000212A2 /* sample_IntersectsRectUITests.m */,
+				4F5EB48C1C22AB4B000212A2 /* Info.plist */,
+			);
+			path = sample_IntersectsRectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5EB4611C22AB4A000212A2 /* sample_IntersectsRect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5EB48F1C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRect" */;
+			buildPhases = (
+				4F5EB45E1C22AB4A000212A2 /* Sources */,
+				4F5EB45F1C22AB4A000212A2 /* Frameworks */,
+				4F5EB4601C22AB4A000212A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sample_IntersectsRect;
+			productName = sample_IntersectsRect;
+			productReference = 4F5EB4621C22AB4A000212A2 /* sample_IntersectsRect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F5EB47A1C22AB4B000212A2 /* sample_IntersectsRectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5EB4921C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRectTests" */;
+			buildPhases = (
+				4F5EB4771C22AB4B000212A2 /* Sources */,
+				4F5EB4781C22AB4B000212A2 /* Frameworks */,
+				4F5EB4791C22AB4B000212A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F5EB47D1C22AB4B000212A2 /* PBXTargetDependency */,
+			);
+			name = sample_IntersectsRectTests;
+			productName = sample_IntersectsRectTests;
+			productReference = 4F5EB47B1C22AB4B000212A2 /* sample_IntersectsRectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F5EB4851C22AB4B000212A2 /* sample_IntersectsRectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5EB4951C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRectUITests" */;
+			buildPhases = (
+				4F5EB4821C22AB4B000212A2 /* Sources */,
+				4F5EB4831C22AB4B000212A2 /* Frameworks */,
+				4F5EB4841C22AB4B000212A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F5EB4881C22AB4B000212A2 /* PBXTargetDependency */,
+			);
+			name = sample_IntersectsRectUITests;
+			productName = sample_IntersectsRectUITests;
+			productReference = 4F5EB4861C22AB4B000212A2 /* sample_IntersectsRectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5EB45A1C22AB4A000212A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "山本文子";
+				TargetAttributes = {
+					4F5EB4611C22AB4A000212A2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4F5EB47A1C22AB4B000212A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4F5EB4611C22AB4A000212A2;
+					};
+					4F5EB4851C22AB4B000212A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4F5EB4611C22AB4A000212A2;
+					};
+				};
+			};
+			buildConfigurationList = 4F5EB45D1C22AB4A000212A2 /* Build configuration list for PBXProject "sample_IntersectsRect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5EB4591C22AB4A000212A2;
+			productRefGroup = 4F5EB4631C22AB4A000212A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5EB4611C22AB4A000212A2 /* sample_IntersectsRect */,
+				4F5EB47A1C22AB4B000212A2 /* sample_IntersectsRectTests */,
+				4F5EB4851C22AB4B000212A2 /* sample_IntersectsRectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5EB4601C22AB4A000212A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5EB4751C22AB4B000212A2 /* LaunchScreen.storyboard in Resources */,
+				4F5EB4721C22AB4B000212A2 /* Assets.xcassets in Resources */,
+				4F5EB4701C22AB4B000212A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5EB4791C22AB4B000212A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5EB4841C22AB4B000212A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5EB45E1C22AB4A000212A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5EB46D1C22AB4B000212A2 /* ViewController.m in Sources */,
+				4F5EB46A1C22AB4A000212A2 /* AppDelegate.m in Sources */,
+				4F5EB4671C22AB4A000212A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5EB4771C22AB4B000212A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5EB4801C22AB4B000212A2 /* sample_IntersectsRectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5EB4821C22AB4B000212A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5EB48B1C22AB4B000212A2 /* sample_IntersectsRectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F5EB47D1C22AB4B000212A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F5EB4611C22AB4A000212A2 /* sample_IntersectsRect */;
+			targetProxy = 4F5EB47C1C22AB4B000212A2 /* PBXContainerItemProxy */;
+		};
+		4F5EB4881C22AB4B000212A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F5EB4611C22AB4A000212A2 /* sample_IntersectsRect */;
+			targetProxy = 4F5EB4871C22AB4B000212A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F5EB46E1C22AB4B000212A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5EB46F1C22AB4B000212A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F5EB4731C22AB4B000212A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5EB4741C22AB4B000212A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5EB48D1C22AB4B000212A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F5EB48E1C22AB4B000212A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5EB4901C22AB4B000212A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sample_IntersectsRect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F5EB4911C22AB4B000212A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sample_IntersectsRect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F5EB4931C22AB4B000212A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sample_IntersectsRectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample_IntersectsRect.app/sample_IntersectsRect";
+			};
+			name = Debug;
+		};
+		4F5EB4941C22AB4B000212A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sample_IntersectsRectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample_IntersectsRect.app/sample_IntersectsRect";
+			};
+			name = Release;
+		};
+		4F5EB4961C22AB4B000212A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sample_IntersectsRectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sample_IntersectsRect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F5EB4971C22AB4B000212A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sample_IntersectsRectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sample_IntersectsRect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5EB45D1C22AB4A000212A2 /* Build configuration list for PBXProject "sample_IntersectsRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB48D1C22AB4B000212A2 /* Debug */,
+				4F5EB48E1C22AB4B000212A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5EB48F1C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB4901C22AB4B000212A2 /* Debug */,
+				4F5EB4911C22AB4B000212A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F5EB4921C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB4931C22AB4B000212A2 /* Debug */,
+				4F5EB4941C22AB4B000212A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F5EB4951C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5EB4961C22AB4B000212A2 /* Debug */,
+				4F5EB4971C22AB4B000212A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5EB45A1C22AB4A000212A2 /* Project object */;
+}

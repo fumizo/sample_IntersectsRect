@@ -412,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sample_IntersectsRect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sample_IntersectsRect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fumi.sample-IntersectsRect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +498,7 @@
 				4F5EB4911C22AB4B000212A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5EB4921C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRectTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				4F5EB4941C22AB4B000212A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F5EB4951C22AB4B000212A2 /* Build configuration list for PBXNativeTarget "sample_IntersectsRectUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				4F5EB4971C22AB4B000212A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

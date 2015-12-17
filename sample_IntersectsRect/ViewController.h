@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIGestureRecognizerDelegate> {
+    UIView *moveView;
+    UIView *judgeView;
+    UIView *rightJudgeView;
+    UIView *leftJudgeView;
+    UIView *downJudgeView;
+    
+    int animationSpeedX ;
+    int animationSpeedY ;
+    
+    int direction;
+}
 
 
 @end
